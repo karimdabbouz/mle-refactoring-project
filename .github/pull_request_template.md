@@ -5,8 +5,8 @@
 - [x] I read and understood the notebook.
 - [x] I made a copy of the notebook for refactoring it.
 - [ ] I removed unnecessary code and only kept relevant code for data cleaning and feature engineering.
-- [ ] I transformed the steps in the Data Preparation and Feature Engineering section into functions.
-- [ ] Functions are in a seperate python file.
+- [x] I transformed the steps in the Data Preparation and Feature Engineering section into functions.
+- [x] Functions are in a seperate python file.
 - I build a FastAPI that allows me to:
   - [ ] Create houses
   - [ ] Read houses

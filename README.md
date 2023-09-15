@@ -1,18 +1,16 @@
 # Refactoring Project
 
-Please do not fork this repository, but use this repository as a template for your refactoring project. Make Pull Requests to your own repository even if you work alone and mark the checkboxes with an `x`, if you are done with a topic in the pull request message.
+## What are the steps you took to complete the project?
 
-## Project for today
+1. Read and understand the notebook
+2. Make a copy of the original notebook
+3. Refactored all steps for data cleaning and feature engineering into functions inside of the notebook
+4. Created three python files: `preprocessing.py`, `data_cleaning.py`, `feature_engineering.py`
+5. Put all data cleaning steps into `data_cleaning.py` and all feature engineering steps into `feature_engineering.py`.
+6. Refactored the functions into Sklearn transformers and consolidated them in a class `PreprocessingKingCountyHouseDataset` in `feature_engineering.py`
 
-The task for today you can find in the [project-for-today.md](./project-for-today.md) file.
+## What are the challenges you faced?
 
-## Setup
 
-The necessary libraries are listed in the [requirements.txt](./requirements.txt) file. You can install them with the following command:
 
-```bash
-pyenv local 3.11.3
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+## What are the things you would do differently if you had more time?
