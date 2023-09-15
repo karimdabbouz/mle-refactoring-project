@@ -25,10 +25,3 @@ class PreprocessingKingCountyHouseDataset():
 
     def preprocess_fit_transform(self, df):
         return self.preprocessor_pipeline.fit_transform(df)
-
-
-# train_df = pd.read_csv('../data/King_County_House_prices_dataset.csv')
-# print(train_df.head(2))
-# preprocessor = PreprocessingKingCountyHouseDataset()
-# train_df = preprocessor.preprocess_fit_transform(train_df)
-# print(train_df.head(2))
