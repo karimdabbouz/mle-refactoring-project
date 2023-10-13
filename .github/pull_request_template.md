@@ -8,8 +8,8 @@
 - [x] I transformed the steps in the Data Preparation and Feature Engineering section into functions.
 - [x] Functions are in a seperate python file.
 - I build a FastAPI that allows me to:
-  - [ ] Create houses
-  - [ ] Read houses
-  - [ ] Update houses
-  - [ ] Delete houses
-- [ ] I created a Dockerfile for the app.
+  - [x] Create houses
+  - [x] Read houses
+  - [x] Update houses
+  - [x] Delete houses
+- [x] I created a Dockerfile for the app.
